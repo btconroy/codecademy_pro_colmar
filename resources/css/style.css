@@ -220,7 +220,7 @@ ul li:hover {
 .side-cont {
   display: flex;
   flex-direction: row;
-  height: 30.5%;
+  height: 30%;
 }
 
 .side-cont img {
@@ -268,6 +268,8 @@ ul li:hover {
   background-color: #629DCA;
   color: #364049;
   margin: 0;
+  border-top: 8px double #364049;
+  border-bottom: 8px double #364049;
 }
 
 .contentTwo-content {
@@ -315,4 +317,90 @@ ul li:hover {
 .ct-box p {
   padding-bottom: 1.33rem;
   padding-left: 0.89rem;
+  padding-right: 0.89rem;
+}
+
+/* contentThree */
+
+.contentThree {
+  margin: 0;
+  background-color: seashell;
+  color: #364049;
+}
+
+.contentThree-content {
+  display: flex;
+  flex-direction: row;
+  padding-right: 1.33rem;
+}
+
+.contentThree h1 {
+  text-align: center;
+  margin: 1.78rem;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+.cth-vid-box {
+  padding-left: 1.33rem;
+  padding-right: 1.33rem;
+  width: 60%;
+  margin-bottom: 1.78rem;
+}
+
+.cth-vid-box video {
+  width: 100%;
+}
+
+.cth-vid-box h3 {
+  padding-top: 1.78rem;
+  padding-bottom: 0.44rem;
+}
+
+.contentThree-content h3 {
+  font-family: "Roboto Slab",sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.cth-side-box {
+  display: flex;
+  flex-direction: row;
+  background-color: #629DCA;
+}
+
+.cth-side-box img {
+  width: 35%;
+  height: 35%;
+  padding: 1.33rem 1.33rem;
+}
+
+.cth-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+}
+
+.top {
+  border-bottom: 3px double #364049;
+}
+
+/* footer */
+
+footer {
+  display: inline-flex;
+  justify-content: space-between;
+  padding: .89rem 1.78rem;
+  height: 3.5rem;
+  background-color: #629DCA;
+  border-top: 5px solid #364049;
+}
+
+.foot-box {
+  flex: 3;
+  margin-left: 50rem;
+  margin-right: 7.5rem;
 }
